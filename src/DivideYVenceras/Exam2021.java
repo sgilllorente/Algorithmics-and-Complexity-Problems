@@ -1,6 +1,6 @@
 package DivideYVenceras;
 
-public class DosVectoresIgualesDivide {
+public class Exam2021 {
 
     public static int elementoDistintoAux (int[] vector1, int [] vector2, int i0, int in){
 
@@ -33,7 +33,7 @@ public class DosVectoresIgualesDivide {
     public static void main(String[] args) {
 
         int[] vector1 = {-4, -2, 0,1,1,2,3,4,-9};
-        int[] vector2 = {-4, -2, 0,1,1,2, 7, 10,-6};
+        int[] vector2 = {-4, -2, 0,1,1,5, 7, 10,-6};
 
         int elemento = elementoDistinto(vector1,vector2);
 

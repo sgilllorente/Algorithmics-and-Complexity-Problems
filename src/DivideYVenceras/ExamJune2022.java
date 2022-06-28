@@ -1,6 +1,6 @@
 package DivideYVenceras;
 
-public class DivideExamen2022 {
+public class ExamJune2022 {
 
     public static int checkParesAux(int[] v, int i0, int in){
         if(i0==in)

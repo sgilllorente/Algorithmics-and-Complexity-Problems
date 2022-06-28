@@ -1,6 +1,6 @@
 package DivideYVenceras;
 
-public class DivideColina {
+public class Exam2020Colina {
 
     public static  int maxArrayColinaAux(int[] vector, int i0, int in){
         if(i0==in)

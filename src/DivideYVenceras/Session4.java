@@ -1,6 +1,6 @@
 package DivideYVenceras;
 
-public class SumaMenosUnoDivide {
+public class Session4 {
 
     public static boolean check2posAux(int posi, int[] vector2, int v, int i0, int in){
 

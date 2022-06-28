@@ -1,6 +1,6 @@
 package DivideYVenceras;
 
-public class Divide {
+public class Session1 {
 
 
 

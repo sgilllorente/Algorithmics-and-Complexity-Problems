@@ -1,6 +1,6 @@
 package DivideYVenceras;
 
-public class MinimoArrayDesplazadoDivide {
+public class Exam2018 {
 
     public static  int minArrayRotadoAux(int[] vector, int i0, int iN) {
         if (i0 == iN)
