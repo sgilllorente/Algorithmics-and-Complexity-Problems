@@ -1,3 +1,5 @@
+package Dinamica;
+
 import java.util.ArrayList;
 
 public class SecOptima2022 {

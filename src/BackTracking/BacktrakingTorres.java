@@ -1,6 +1,8 @@
+package BackTracking;
+
 public class BacktrakingTorres {
 
-    public static void repartirAux(int[] lingotes /*int[] cantidades*/,int cantP, int cantM, int nivel, Booleano exito, int cantidad){
+    public static void repartirAux(int[] lingotes /*int[] cantidades*/, int cantP, int cantM, int nivel, Booleano exito, int cantidad){
 
         if(nivel== lingotes.length)
             if(cantP==cantM)

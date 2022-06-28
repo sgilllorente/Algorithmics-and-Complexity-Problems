@@ -1,3 +1,5 @@
+package DivideYVenceras;
+
 public class DivideExamen2022 {
 
     public static int checkParesAux(int[] v, int i0, int in){
@@ -11,7 +13,7 @@ public class DivideExamen2022 {
                 return checkParesAux(v, k+1, in);
             else return checkParesAux(v, i0, k);
 
-             
+
             /*
             if (esPar(v[k]) && esPar(k) || !esPar(v[k]) && !esPar(k))
                 return checkParesAux(v, k+1, in);

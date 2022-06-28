@@ -1,3 +1,5 @@
+package DivideYVenceras;
+
 public class DivideColina {
 
     public static  int maxArrayColinaAux(int[] vector, int i0, int in){

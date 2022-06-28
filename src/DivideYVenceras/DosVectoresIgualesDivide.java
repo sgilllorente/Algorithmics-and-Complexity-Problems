@@ -1,3 +1,5 @@
+package DivideYVenceras;
+
 public class DosVectoresIgualesDivide {
 
     public static int elementoDistintoAux (int[] vector1, int [] vector2, int i0, int in){

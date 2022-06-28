@@ -1,3 +1,5 @@
+package DivideYVenceras;
+
 public class MinimoArrayDesplazadoDivide {
 
     public static  int minArrayRotadoAux(int[] vector, int i0, int iN) {

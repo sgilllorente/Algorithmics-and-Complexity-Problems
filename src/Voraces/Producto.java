@@ -1,3 +1,5 @@
+package Voraces;
+
 public class Producto {
     private int nombre;
     private int peso;

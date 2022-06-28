@@ -1,19 +1,21 @@
+package Voraces;
+
 import java.util.ArrayList;
 
 public class ParcialVoraces2022<Grupo> {
     /*
 }
 
-    ArrayList<Grupo> MezclaEstudiantes(ArrayList<Estudiante> listaEst, int numMaxAlumnos){
+    ArrayList<Grupo> MezclaEstudiantes(ArrayList<Voraces.Estudiante> listaEst, int numMaxAlumnos){
         boolean turno=false;
-        Estudiante candidato;
+        Voraces.Estudiante candidato;
 
         if(turno)
             candidato= seleccionarPeorEstudiante(listaEst);
             meterEnGrupo
 
 
-        Estudiante candidato;
+        Voraces.Estudiante candidato;
 
         while(!listaEst.isEmpty()){
             candidato = seleccionarCandidato(listaEst);
@@ -27,16 +29,16 @@ public class ParcialVoraces2022<Grupo> {
 
 
 }
-    public static Estudiante seleccionarMejorEstudiante(ArrayList<Estudiante> listaEst){
-        Estudiante max = listaEst.get(0);
+    public static Voraces.Estudiante seleccionarMejorEstudiante(ArrayList<Voraces.Estudiante> listaEst){
+        Voraces.Estudiante max = listaEst.get(0);
         for(int i=0; i< listaEst.size();i++){
             if(listaEst.get(i).getNotaMedia()> max.getNotaMedia())
                 max= listaEst.get(i);
         }
         return max;
     }
-    public static Estudiante seleccionarPeorEstudiante(ArrayList<Estudiante> listaEst){
-        Estudiante min = listaEst.get(0);
+    public static Voraces.Estudiante seleccionarPeorEstudiante(ArrayList<Voraces.Estudiante> listaEst){
+        Voraces.Estudiante min = listaEst.get(0);
         for(int i=0; i< listaEst.size();i++){
             if(listaEst.get(i).getNotaMedia()< min.getNotaMedia())
                 min= listaEst.get(i);

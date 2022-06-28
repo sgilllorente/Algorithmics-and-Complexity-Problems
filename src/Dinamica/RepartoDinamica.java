@@ -1,3 +1,5 @@
+package Dinamica;
+
 public class RepartoDinamica {
 
     static boolean[][] hayReparto(int[] valores){

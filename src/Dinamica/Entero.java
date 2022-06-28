@@ -1,3 +1,5 @@
+package Dinamica;
+
 public class Entero extends Object {
 
     int valor;

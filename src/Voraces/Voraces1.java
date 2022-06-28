@@ -1,10 +1,12 @@
+package Voraces;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 
 
 public class Voraces1 {
 
-    public static void distribuyeCarga(ArrayList<Producto> productos, ArrayList<Producto> n1,ArrayList<Producto> n2, ArrayList<Producto> n3 ){
+    public static void distribuyeCarga(ArrayList<Producto> productos, ArrayList<Producto> n1, ArrayList<Producto> n2, ArrayList<Producto> n3 ){
         int cantidad_n1=0;
         int cantidad_n2=0;
         int cantidad_n3=0;
